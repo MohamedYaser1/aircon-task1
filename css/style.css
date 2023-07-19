@@ -208,6 +208,7 @@
 .page-header .breadcrumb-item a,
 .page-header .breadcrumb-item + .breadcrumb-item::before {
   color: var(--light);
+  text-decoration: none;
 }
 
 .page-header .breadcrumb-item a:hover,
@@ -415,6 +416,7 @@
   font-weight: normal;
   text-transform: capitalize;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .footer .btn.btn-link::before {
